@@ -68,6 +68,7 @@ The game has gotten a large cast of non-playable characters(enemies included) ad
 resource libraries. Some appear in towns for the private beta, but most we're still finding
 places for as the project takes a temporary right-hand turn into the first main quest arc. Here
 is just a small dosage of what is currently out there:
+
 ![](https://i.imgur.com/J6uPcy1.jpg)
 
 Up until now, I have been purely working as a modeler on Hedra, but because end-game
