@@ -1,0 +1,167 @@
+![](https://i.imgur.com/TePpowW.jpg)
+
+## WELCOME, WELCOME!
+
+It has been some time since I spoke up. Normally, I lurk the discord in some minor state of
+closed-door development on the game, so most of my work doesn't actually see the light of
+reddit or any forum, but Zaph, as of me entering the main quest arc of development, said I
+should post at least SOMETHING. Here it is; pardon the rambly format.
+
+![](https://i.imgur.com/dC1oZsY.jpg)
+
+## LAST TIME WE SPOKE...
+
+I was in the midst of a royal pile of props and set dressing. In fact, I still am, but in the process
+of modeling, new locations have been introduced to the game archive. To start, villages are
+now fleshed out. This basic house, for instance, is a solid marriage of architecture modeling
+and handy set dressing.
+
+![](https://i.imgur.com/qY4D1ut.jpg)
+
+![](https://i.imgur.com/x1jpjka.jpg)
+
+Let's skip forward a bit to a more complex buildings...
+
+![](https://i.imgur.com/qKT1v6m.jpg)
+
+The two story commoner's house, third alternate 1-story common house and the witch hut.
+
+![](https://i.imgur.com/tT2965I.jpg)
+
+Modeling comes inn three phases for most buildings. First I figure out what's going to be IN
+them, and model all of those props and set dressing first, then I floorplan the roam space, and
+then I model around the needs of the player and npcs. That way everything is not too
+spacious and not too cozey, although there are some grovelings about not having enough
+jump room here and there, but 'cest la vie.'
+
+![](https://i.imgur.com/L5WpyCc.jpg)
+
+By modeling this way, we avoid the weird spacial paradox other rpg's (like TES4/5) where
+sometimes you walk into a tiny building and end up in an expansive labyrinth of rooms. It
+doesn't make sense, to be frank, but players accept it as just part of the game's quirks.
+
+Weirdly enough, this introduces a bit of strain on the engine when ambitious building designs
+are introduced to the world. One such building pushed back engine development a bit to
+micromanage polygon loading in a faster way. This was none other than the nordic wizard's
+tower.
+![](https://i.imgur.com/Az0s1fN.jpg)
+
+After those issues were delt with however, we were able to finally begin working with
+dungeon, crypt, and fortress concepts. These are still far off from being complete, but will add
+some content specifically for people who are found of a good crawl every so often. The same
+philosophy has been applied to these as the other buildings.
+
+![](https://i.imgur.com/LXgQ8qh.jpg)
+
+![](https://i.imgur.com/pWKHFQo.jpg)
+
+This is the first of what will be ten dungeons to roam around in, neatly built around the
+objectives needed. Not too long, not too short, and the fights will be as brief or as long as
+they need to once testing comes to play.
+
+
+![](https://i.imgur.com/rJKuzwb.jpg)
+
+## SINCE WE LAST SPOKE...
+
+The game has gotten a large cast of non-playable characters(enemies included) added to the
+resource libraries. Some appear in towns for the private beta, but most we're still finding
+places for as the project takes a temporary right-hand turn into the first main quest arc. Here
+is just a small dosage of what is currently out there:
+![](https://i.imgur.com/J6uPcy1.jpg)
+
+Up until now, I have been purely working as a modeler on Hedra, but because end-game
+content requiring custom animation rigs puts us outside of the time budget-production-wise,
+I've switched to animation! Basically, from here on out, I'll be working on the bosses and new
+creatures going into the game within the scope of the main quest arc, which encompasses a
+Lich giving four parts of his horcrux/phylactery to fourish(?) multiverse lords in exchange for
+them having a stake in the material plane real-estate. This of coarse causes all sorts of issues
+and is the reason why you(hero) is in this twisted little world. Well enough of that...
+
+![](https://i.imgur.com/4rM2fAs.jpg)
+
+Animation starts a bit
+like this... The old
+tradition of studying
+time divy'd up into
+frames per second like
+the old masters like
+Tex and Walt used to
+do, before a modeling
+program is even
+touched.
+
+
+Notes are paired with concept
+art to give me a visualization of
+how a creature should move. As
+such, those notes correspond to
+the first of four main quest
+bosses, Azathul the Miconian.
+
+![](https://i.imgur.com/PPHQVH2.jpg)
+
+You remember what he looks
+like from the npc preview sheet
+right? He's this guy:
+
+![](https://i.imgur.com/Txg9aQR.jpg)
+
+Anyways, after conceptualizing, frame-direction, and modeling, then it's rigging so all of that
+written down data can be quickly animated. A skeleton, plus handles, is below for one of the
+fungal biome creatures:
+This doesn't include
+conversions to motionbuilder,
+blender, then cleanup of
+conversion artifacts, and
+then the final DAE output
+that the game uses. As you
+can see, **THERE ARE A LOT
+OF STEPS** just to get just
+one character in the game,
+and that's before Zaph
+scripts it in with C#.
+
+![](https://i.imgur.com/3ZHTzce.jpg)
+
+![](https://i.imgur.com/b1SngFu.jpg)
+
+
+![](https://i.imgur.com/sopaoE7.jpg)
+
+As of the end of September and beginning of October 2019, it has been agreed that to tie the
+game together and ultimately make everything worthwhile, we needed to develop a basic
+motif for gameplay, not just infinite grinding and survival.
+
+![](https://i.imgur.com/2TnXpJq.jpg)
+
+As I said earlier, this is broken down into for monstrous creatures, each with a shard of the
+soul of a lich that is plaguing the land with undead and whatnot. The four lords are:
+
+![](https://i.imgur.com/Dwmisqv.jpg)
+
+Azathul the Myconian, Penemue of the Sundered Tower....
+
+
+![](https://i.imgur.com/bh8l7Kd.jpg) ![](https://i.imgur.com/CiiTq00.jpg)
+
+The brothers Faus the Woodguard & Icari the Woodlord...
+
+![](https://i.imgur.com/OPool54.jpg)
+
+...and Saiinov of the Cosmos, forlorn deity of a now
+dead planet.
+
+![](https://i.imgur.com/CfPWkFp.jpg)
+
+Each boss creature will have its own mini biome
+rich with localized creatures and foley. For instance,
+these trees and critters from Azathul's biome:
+
+![](https://i.imgur.com/SYa8yqb.jpg)
+
+That ends this summary of what's been going on over the last half year of so on the art front.
+If you want to see more, lurk the discord. We appreciate guests.
+
+u/afrotoast42
+
