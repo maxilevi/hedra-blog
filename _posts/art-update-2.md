@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "ART UPDATE 2"
+---
+
 ![](https://i.imgur.com/TePpowW.jpg)
 
 ## WELCOME, WELCOME!
