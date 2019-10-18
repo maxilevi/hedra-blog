@@ -1,6 +1,10 @@
 ---
 layout: post
 title:  "ART UPDATE 2"
+date:   2018-11-05 23:02:21 +0100
+categories: jekyll update
+author: afrotoast42
+excerpt_separator: <!--more-->
 ---
 
 ![](https://i.imgur.com/TePpowW.jpg)
