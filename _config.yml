@@ -2,5 +2,7 @@ theme: jekyll-theme-cayman
 title: Project Hedra Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Blog for the 3D open world lowpoly RPG called Project Hedra
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://blog.projecthedra.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
+url: "https://blog.projecthedra.com"
+logo: /assets/header.png
+google_analytics: UA-55659525-12
