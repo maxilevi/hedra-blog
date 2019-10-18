@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if site.contributors.size > 0 %}
+  <h2 class="contributor-header">Contributors</h2>
+  <div class="contributor-list">
+  {% for author in site.contributors %}
+  <div class="contributor-entry">
+    <h3 class="contributor-name" id="{{author.name}}">{{author.fullname}}</h3>
+    <div>
+      {%- include social.html -%}
+    </div>
+    <div class="post-content contributor-content">
+      {% if author.picture %}
+      <div class="contributor-image">
+	<img src="{{ author.picture | relative_url }}">
+      </div>
+      {% endif %}
+      {{ author.content }}
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+  {% endif %}
+
+</article>
