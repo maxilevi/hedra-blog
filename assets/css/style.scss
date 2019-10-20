@@ -4,5 +4,11 @@
 @import "{{ site.theme }}";
 
 .page-header {
+	background-position: 0px -150px;
 	background-image: url("{{ '/assets/img/header.png?v=' | append: site.github.build_revision | relative_url }}");
+}
+
+.btn {
+	background-color: rgba(55,55,55,0.4);
+	border-color: rgba(55,55,55,0.8);
 }
