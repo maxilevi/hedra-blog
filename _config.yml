@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
-title: PROJECT HEDRA
+title: Project Hedra
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog for the 3D open world lowpoly RPG called Project Hedra
+  Project Hedra is an ambitious open-world low-poly RPG game. Inspired from games like CubeWorld, Minecraft and Diablo II, it aims to be an open-world RPG based around procedurally generated content, allowing for maximium replayability.
 baseurl: "/"
 url: "https://blog.projecthedra.com"
 logo: /assets/header.png
@@ -12,3 +12,5 @@ discord: https://discord.gg/AEC4Uab
 reddit: https://reddit.com/r/projecthedra
 logo: /assets/img/logo.png
 show_excerpts: false
+plugins:
+  - jekyll-seo-tag
