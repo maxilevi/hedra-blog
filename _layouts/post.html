@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -19,13 +18,9 @@ comments: true
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
     <br>
-    <center>
-      <div class="steamContainer">
-          <iframe class="steamBanner" src="https://store.steampowered.com/widget/1009960/" frameborder="0" width="646" height="190"></iframe>
-      </div>
-    </center>
+    {% include steam_banner.html %}
   </div>
-
+  <br>
   {%- include disqus_comments.html -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
