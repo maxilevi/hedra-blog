@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Project Hedra is an ambitious open-world low-poly RPG game. Inspired from games like CubeWorld, Minecraft and Diablo II, it aims to be an open-world RPG based around procedurally generated content, allowing for maximium replayability.
 baseurl: "/"
 url: "https://blog.projecthedra.com"
-logo: /assets/header.png
+logo: /assets/img/header.jpg
 google_analytics: UA-55659525-12
 home: https://blog.projecthedra.com
 steam: https://store.steampowered.com/app/1009960/Project_Hedra/
