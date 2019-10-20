@@ -12,5 +12,6 @@ discord: https://discord.gg/AEC4Uab
 reddit: https://reddit.com/r/projecthedra
 logo: /assets/img/logo.png
 show_excerpts: false
+website: https://projecthedra.com
 plugins:
   - jekyll-seo-tag
