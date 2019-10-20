@@ -13,7 +13,6 @@
     {% endif %}
     <meta charset="UTF-8">
 
-{% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#2e2e2e">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -21,7 +20,7 @@
   </head>
   <body>
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <a href="{{ site.home }}" class="btn">Home</a>
       <a href="{{ site.steam }}" class="btn">Buy</a>
     </header>
@@ -30,8 +29,12 @@
       {{ content }}
 
       <footer class="site-footer">
-        <a href="{{ site.discord }}" class="btn">Discord</a>
-        <a href="{{ site.reddit }}" class="btn">Reddit</a>
+        <a href="{{ site.reddit }}" class="mx-2 icon">
+          <span class="fab fa-reddit"></span>
+        </a>
+        <a href="{{ site.discord }}" class="mx-2 icon">
+          <span align="center" class="fab fa-discord"></span>
+        </a>
       </footer>
     </main>
   </body>

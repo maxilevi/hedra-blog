@@ -4,7 +4,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ site.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -17,6 +17,10 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+    <br>
+    <div class="steamContainer">
+        <iframe class="steamBanner" src="https://store.steampowered.com/widget/1009960/" frameborder="0" width="646" height="190"></iframe>
+    </div>
   </div>
 
   {%- if site.disqus.shortname -%}
