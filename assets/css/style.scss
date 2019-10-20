@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+	background-image: url("{{ '/assets/img/header.png?v=' | append: site.github.build_revision | relative_url }}"");
+}
