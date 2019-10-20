@@ -10,10 +10,21 @@
 	box-shadow: 0px 0px 40px rgba(0,0,0,0.75);
 }
 
+.main-content {
+	color: #333;
+}
+
 .btn {
 
 }
 
 .project-name {
 	max-width: 100%;
+}
+
+.steamContainer {
+  margin-top: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
