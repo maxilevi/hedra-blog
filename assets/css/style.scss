@@ -5,7 +5,7 @@
 
 .page-header {
 	background-position: top;
-	background-image: url("{{ '/assets/img/header.png?v=' | append: site.github.build_revision | relative_url }}");
+	background-image: url("{{ '/assets/img/header.jpg?v=' | append: site.github.build_revision | relative_url }}");
 	background-position: top;
 	box-shadow: 0px 0px 40px rgba(0,0,0,0.75);
 }
