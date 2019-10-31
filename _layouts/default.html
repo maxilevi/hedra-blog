@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    {% if page.title %}
     <title>Project Hedra - {{ page.title }}</title>
+    {% else %}
+    <title>Project Hedra</title>
+    {% endif %}
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
