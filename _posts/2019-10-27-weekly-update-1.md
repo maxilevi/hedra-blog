@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Weekly Update #1"
+title:  "Weekly Update #1: First entry!"
 date:   2019-10-27
 author: Zaphyk
 ---
