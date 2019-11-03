@@ -26,6 +26,7 @@ Because crafting requires collecting several different item types, I increased t
 ![](/assets/img/post2/inv_size.png)
 
 On the art side, afro has been working on finishing up the previous boss. Here is an attack animation he made for it:
+
 ![](/assets/img/post2/powerattack.gif)
 
 That's all!
