@@ -13,7 +13,7 @@ So adding the model and the collisions into the game was pretty easy and fast be
 
 ![](/assets/img/post3/ingame0.png)
 
-Instead, the development bottleneck was making the AI work smoothly. Currently the AI for the mobs uses [A&ast;](https://en.wikipedia.org/wiki/A*_search_algorithm) which is an algorithm for finding a shortest path from a grid of points. This works fine in the overworld terrain however when mobs are inside structures there are too many grid points to sample so the AI becames too slow to do anything.
+Instead, the development bottleneck was making the AI work smoothly. Currently the AI for the mobs uses [AStar](https://en.wikipedia.org/wiki/A*_search_algorithm) which is an algorithm for finding a shortest path from a grid of points. This works fine in the overworld terrain however when mobs are inside structures there are too many grid points to sample so the AI becames too slow to do anything.
 
 My first idea for solving this issue was to use [navigation meshes](https://en.wikipedia.org/wiki/Navigation_mesh) this would allow me to clearly define "walkable zones"
 that the AI can traverse. Then I would build a [graph](https://en.wikipedia.org/wiki/Graph_theory) out of those "walkable zones" and use it as waypoints. [0]
@@ -36,4 +36,4 @@ That's all!
 
 Notes:
 
-[0] This is basically applying A&ast; but on graph thats not built in realtime.
+[0] This is basically applying AStar but on graph thats not built in realtime.
