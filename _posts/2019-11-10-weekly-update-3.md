@@ -7,22 +7,23 @@ author: Zaphyk
 
 This week's most of my efforts where focused in adding more content into the game. More specifically I worked on adding a new dungeon into the overworld. Here is a picture of the model:
 
-![](/assets/img/post2/dungeon_blender.png)
+![](/assets/img/post3/dungeon_blender.png)
 
 Here is a picture of the inside layout:
 
-![](/assets/img/post2/dungeon_layout.jpg)
+![](/assets/img/post3/dungeon_layout.jpg)
 
 So adding the model and the collisions into the game was pretty easy and performant because of groundwork that was done a few months before. (This "groundwork" was porting the engine to use [bulletphysics](https://en.wikipedia.org/wiki/Bullet_(software))). Here is a picture of the dungeon ingame:
 
-![](/assets/img/post2/ingame0.png)
+![](/assets/img/post3/ingame0.png)
 
 Instead, the development bottleneck was making the AI work smoothly. Currently the AI for the mobs uses [A*](https://en.wikipedia.org/wiki/A*_search_algorithm) which is an algorithm for finding a shortest path from a grid of points. This works fine in the overworld terrain however when mobs are inside structures there are too many grid points to sample so the AI becames too slow to do anything.
 
 My first idea for solving this issue was to use [navigation meshes](https://en.wikipedia.org/wiki/Navigation_mesh) this would allow me to clearly define "walkable zones"
-that the AI can traverse. Then I would build a [graph](https://en.wikipedia.org/wiki/Graph_theory) out of those "walkable zones" and use it as waypoints.[0] Here is an ingame picture:
+that the AI can traverse. Then I would build a [graph](https://en.wikipedia.org/wiki/Graph_theory) out of those "walkable zones" and use it as waypoints. [0]
+Here is an ingame picture:
 
-![](/assets/img/post2/navmesh.png)
+![](/assets/img/post3/navmesh.png)
 
 Now finding shortests paths isn't something very hard to do since it's well explored topic. For solving this particular problem I used [Dijkstra's algorithm ](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
@@ -36,8 +37,7 @@ _Suppose you would like to find the shortest path between two intersections on a
 
 That's all!
 
-_
+
 Notes:
 
 [0] This is basically applying A* but on graph thats not built in realtime.
-_
