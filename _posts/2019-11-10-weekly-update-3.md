@@ -31,7 +31,9 @@ _Suppose you would like to find the shortest path between two intersections on a
 
 [Source](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
-That's all!
+I managed to implement it and now the AI is working correctly inside the buildings. 
+
+With nothing more to show I will end this week's post :)
 
 
 Notes:
