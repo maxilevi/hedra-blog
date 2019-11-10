@@ -31,12 +31,13 @@ Here is a simple explanation from [wikipedia](https://en.wikipedia.org/wiki/Dijk
 _Suppose you would like to find the shortest path between two intersections on a city map: a starting point and a destination. Dijkstra's algorithm initially marks the distance (from the starting point) to every other intersection on the map with infinity. This is done not to imply that there is an infinite distance, but to note that those intersections have not been visited yet. Some variants of this method leave the intersections' distances unlabeled. Now select the current intersection at each iteration. For the first iteration, the current intersection will be the starting point, and the distance to it (the intersection's label) will be zero. For subsequent iterations (after the first), the current intersection will be a closest unvisited intersection to the starting point (this will be easy to find)._
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Dijkstra_Animation.gif/220px-Dijkstra_Animation.gif)
-Source: [1]
+
+[Source](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
 That's all!
 
+_
 Notes:
 
-[0] This is basically applying A* but on graph thats not build in realtime.
-
-[1] https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+[0] This is basically applying A* but on graph thats not built in realtime.
+_
