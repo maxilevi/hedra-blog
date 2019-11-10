@@ -5,15 +5,11 @@ date:   2019-11-10
 author: Zaphyk
 ---
 
-This week's most of my efforts where focused in adding more content into the game. More specifically I worked on adding a new dungeon into the overworld. Here is a picture of the model:
-
-![](/assets/img/post3/dungeon_blender.png)
-
-Here is a picture of the inside layout:
+This week's most of my efforts where focused in adding more content into the game. More specifically I worked on adding a new dungeon into the overworld. Here is a picture of the inside layout of a future dungeon:
 
 ![](/assets/img/post3/dungeon_layout.jpg)
 
-So adding the model and the collisions into the game was pretty easy and performant because of groundwork that was done a few months before. (This "groundwork" was porting the engine to use [bulletphysics](https://en.wikipedia.org/wiki/Bullet_(software))). Here is a picture of the dungeon ingame:
+So adding the model and the collisions into the game was pretty easy and fast because of groundwork that was done a few months before. (This "groundwork" was porting the engine to use [bulletphysics](https://en.wikipedia.org/wiki/Bullet_(software))). Here is a picture of the dungeon ingame:
 
 ![](/assets/img/post3/ingame0.png)
 
